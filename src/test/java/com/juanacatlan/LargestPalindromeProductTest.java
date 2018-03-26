@@ -6,22 +6,17 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class LargestPalindromeProductTest extends TestCase {
-    @Before
-    public void setUp() throws Exception {
-    }
 
-    @After
-    public void tearDown() throws Exception {
+    LargestPalindromeProduct example = new LargestPalindromeProduct();
+
+    @Test
+    public void LargestPalindromeProduct_Test1 () {
+        int n = 101110;
     }
 
     @Test
-    public void isPalindrome() throws Exception {
-
-    }
-
-    @Test
-    public void main() throws Exception {
-
+    public void LargestPalindromeProduct_Test2 () {
+        int n = 800000;
     }
 
 }

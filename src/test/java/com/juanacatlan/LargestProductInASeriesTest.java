@@ -9,17 +9,21 @@ import static junit.framework.Assert.assertEquals;
 
 public class LargestProductInASeriesTest extends TestCase {
 
-    private LargestProductInASeries product;
-    @Before
-    public void setUp() {
-    }
+    LargestProductInASeries example = new LargestProductInASeries();
 
-    @After
-    public void tearDown() {
+    @Test
+    public void largestProductInASeries_Test1 () {
+        int n = 10;
+        int k = 5;
+        String num = "3675356291";
+
     }
 
     @Test
-    public void main() {
+    public void largestProductInASeries_Test2 () {
+        int n = 10;
+        int k = 5;
+        String num = "2709360626";
 
     }
 }
