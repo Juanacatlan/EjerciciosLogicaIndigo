@@ -7,11 +7,11 @@ import java.math.*;
 import java.util.regex.*;
 
 public class LargestProductInASeries {
-    public static void main(String[] args) {
+    public static String[] main(String[] args) {
 
         Scanner in = new Scanner(System.in);
         int t = in.nextInt();
-
+        String[] pruebas = new String [t];
         for(int a0 = 0; a0 < t; a0++){
             int n = in.nextInt();
             int k = in.nextInt();
@@ -28,6 +28,8 @@ public class LargestProductInASeries {
                 if (product > largestProduct) largestProduct = product;
             }
             System.out.println(largestProduct);
+            pruebas[a0] = Integer.toString(largestProduct);
         }
+        return pruebas;
     }
 }

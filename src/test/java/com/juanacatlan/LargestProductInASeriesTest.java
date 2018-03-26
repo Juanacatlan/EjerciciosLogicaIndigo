@@ -17,7 +17,8 @@ public class LargestProductInASeriesTest extends TestCase {
         int k = 5;
         String num = "3675356291";
         int expected = 3150;
-        int actual = this.example();
+        String param [] = {"10", "5", num};
+        String [] actual = this.example.main(param);
         assertEquals(expected, actual);
     }
 
