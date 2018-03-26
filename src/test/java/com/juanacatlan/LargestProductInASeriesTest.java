@@ -16,7 +16,9 @@ public class LargestProductInASeriesTest extends TestCase {
         int n = 10;
         int k = 5;
         String num = "3675356291";
-
+        int expected = 3150;
+        int actual = this.example();
+        assertEquals(expected, actual);
     }
 
     @Test
@@ -24,6 +26,7 @@ public class LargestProductInASeriesTest extends TestCase {
         int n = 10;
         int k = 5;
         String num = "2709360626";
-
+        int expected = 0;
+        assertEquals(expected, example);
     }
 }
