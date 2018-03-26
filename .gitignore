@@ -1,3 +1,5 @@
 .idea/
 target/
-Excercises-1.iml
+.gradle/
+gradle/
+out/
