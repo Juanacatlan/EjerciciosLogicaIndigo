@@ -1,11 +1,7 @@
 package com.juanacatlan;
 
 import junit.framework.TestCase;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
-
-import static junit.framework.Assert.assertEquals;
 
 public class LargestProductInASeriesTest extends TestCase {
 
@@ -18,7 +14,7 @@ public class LargestProductInASeriesTest extends TestCase {
         String num = "3675356291";
         int expected = 3150;
         String param [] = {"10", "5", num};
-        String [] actual = this.example.main(param);
+        String [] actual = AbstractMainTests.executeMain("LargestProductInASeries", param);
         assertEquals(expected, actual);
     }
 
