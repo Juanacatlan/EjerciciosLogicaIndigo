@@ -15,27 +15,26 @@ Para correr este proyecto necesita tener instalado lo siguiente:
 
 ```
 jdk 1.8 o superior
+gradle 2.13 o superior
 ```
 
 ### Installing
 
-Clone el proyecto
+Clone el proyecto en su máquina local:
 
 ```
 git clone https://github.com/Juanacatlan/EjerciciosLogicaIndigo.git
-```
-
-Importarlo a su IDE de preferencia, se recomienda usar IntelliJ 2017
-
-```
-
 ```
 
 End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+En la carpeta raíz del proyecto ejecutar el siguiente comando:
+
+```
+gradle test
+```
 
 ### Break down into end to end tests
 
@@ -82,5 +81,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Jorge Ramón :v
 * Humberto Alonso <3
-* ¿Se han dado cuenta que tiene por apellidos nombres propios?
+* ¿Se han dado cuenta que tienen por apellidos nombres propios?
 

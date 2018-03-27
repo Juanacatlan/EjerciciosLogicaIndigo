@@ -2,6 +2,7 @@ group 'com.juanacatlan'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'groovy'
 
 sourceCompatibility = 1.8
 
@@ -10,9 +11,6 @@ repositories {
 }
 
 dependencies {
-    testCompile (
-            'junit:junit:4.12',
-            'org.codehaus.groovy:groovy-all:2.4.11',
-            'org.spockframework:spock-core:1.1-groovy-2.4'
-    )
+    compile 'org.codehaus.groovy:groovy-all:2.4.11'
+    testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
 }
