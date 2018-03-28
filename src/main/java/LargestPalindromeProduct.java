@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class LargestPalindromeProduct {
+class LargestPalindromeProduct {
 
     private boolean isPalindrome(int num) {
         String cadena = String.valueOf(num);
@@ -12,8 +10,7 @@ public class LargestPalindromeProduct {
         }
     }
 
-    private int calculatePalindome(int n) {
-
+    public int obtainLargestPalindome(int n) {
         int largestProduct = 0;
         for ( int i = n; i >= 101101; i-- ) {
             if (n > 999999) {
@@ -29,7 +26,6 @@ public class LargestPalindromeProduct {
                             int product = a * b;
                             if ( product == i && product >= largestProduct ) {
                                 largestProduct = product;
-                                System.out.println(largestProduct);
                                 break;
                             }
                         }
@@ -39,24 +35,5 @@ public class LargestPalindromeProduct {
             }
         }
         return largestProduct;
-    }
-
-    private int testCases(int t) {
-
-        Scanner in = new Scanner(System.in);
-        int n = in.nextInt();
-        for(int a0 = 0; a0 < t; a0++){
-            calculatePalindome(n);
-        }
-        return t;
-    }
-
-    public static void main(String[] args) {
-
-        Scanner in = new Scanner(System.in);
-        int t = in.nextInt();
-
-        new LargestPalindromeProduct().testCases(t);
-
     }
 }

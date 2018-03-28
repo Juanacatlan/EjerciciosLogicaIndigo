@@ -26,8 +26,6 @@ Clone el proyecto en su máquina local:
 git clone https://github.com/Juanacatlan/EjerciciosLogicaIndigo.git
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
 ## Running the tests
 
 En la carpeta raíz del proyecto ejecutar el siguiente comando:
@@ -35,26 +33,11 @@ En la carpeta raíz del proyecto ejecutar el siguiente comando:
 ```
 gradle test
 ```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
+Esto es para que genere los reportes con los resultados de las pruebas
+que pueden ser consultados en
 ```
-Give an example
+/proyecto/build/reports/tests/clases/
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
