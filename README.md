@@ -28,7 +28,7 @@ git clone https://github.com/Juanacatlan/EjerciciosLogicaIndigo.git
 
 ## Running the tests
 
-En la carpeta raíz del proyecto ejecutar el siguiente comando:
+En una terminal linux, en la carpeta raíz del proyecto ejecutar el siguiente comando:
 
 ```
 gradle test
@@ -36,19 +36,16 @@ gradle test
 Esto es para que genere los reportes con los resultados de las pruebas
 que pueden ser consultados en
 ```
-/proyecto/build/reports/tests/clases/
+/proyecto/build/reports/tests/clases/archivoTest.html
 ```
+
+Donde 'proyecto' es el nombre del proyecto sobre el que estamos trabajando y 'archivoTest.html' es el reporte de las pruebas del archivo de purebas.
 
 ## Built With
 
 * [Spock](http://spockframework.org/) - The web framework used for testing
 * [JUnit](https://junit.org/junit5/) - Another framework for testing
 * [Gradle](https://gradle.org/) - Dependency Management
-
-## Contributing
-
-## Versioning
-
 
 ## Authors
 
@@ -64,5 +61,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Jorge Ramón :v
 * Humberto Alonso <3
-* ¿Se han dado cuenta que tienen por apellidos nombres propios?
-
+* Por su apoyo moral y sus consejos para mejorar.
