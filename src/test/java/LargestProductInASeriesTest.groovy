@@ -7,7 +7,7 @@ class LargestProductInASeriesTest extends Specification {
     @Unroll('the series of 5 digits in a number that has the largest product')
     def 'the result product is equals to the number expected'() {
         given: 'An instace of the class'
-          LargestProductInASeries lpp = new LargestProductInASeriesTest()
+          LargestProductInASeries lpp = new LargestProductInASeries()
         and: 'the number of test cases, a number of n digits, a size of the series and the number'
           int n = _n
           int k = _k
